@@ -12,11 +12,12 @@ body, html {
     height: 100%;
     padding: 20px;
     box-sizing: border-box; /* Include padding and border in element's total width and height */
+    font-family: 'Roboto', sans-serif;  
 }
 
 #title1 {
     text-align: center;
-    font-size: calc(50vw / 10);
+    font-size: calc(60vw / 10);
     margin-bottom: 90px;
     border-color: #000000e6;
     
