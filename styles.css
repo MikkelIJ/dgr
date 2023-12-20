@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#title1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#title2 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#btn {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 50%; /* Add this line to make the button round */
+    width: 150px; /* Set the width to 100px */
+    height: 150px; /* Set the height to 100px */
+    font-size: x-large;
+}
+
+#textbox1 {
+    padding: 10px;
+    font-size: 48px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    border-color: #00000000;
+}
+
+#textbox2 {
+    padding: 10px;
+    font-size: 48px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    border-color: #00000000;
+}
