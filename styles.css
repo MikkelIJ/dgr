@@ -1,48 +1,30 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 100%;
-    width: 100%;
-    font-family: Arial, sans-serif;
-    margin: 0 auto; /* Add this line to center the container horizontally */
+    height: calc(100vh - 20px); /* Adjust the height to account for the padding and margin */
+    padding: 20px;
 }
 
 #title1 {
-    font-size: calc(50vw / 10); /* Adjust the divisor (10) to control the font size */
-    margin: 0 20px; /* Add this line to have 20px free on each side */
-    margin-bottom: 20px;
     text-align: center;
-    position: fixed; /* Add this line to position the button */
-    top: 0; /* Add this line to align the button at the bottom */
-}
-
-#btn {
-    width: calc(100% - 40px); /* Add this line to make the button as wide as the screen with 20px free on each side */
-    padding: 20px; /* Add this line to set the padding */
-    position: fixed;
+    font-size: calc(50vw / 10);
+    margin: 0 20px;
     margin-bottom: 20px;
-    bottom: 0;
-    font-size: x-large;
+    border-color: #000000e6;
 }
 
 #textbox1 {
     padding: 10px;
-    width: fit-width;
-    height: fit-width;
-    width: calc(100% - 40px);
     text-align: center;
     border-color: #00000000;
-    font-size: calc(8vw + 2vh); /* Auto-adjust font size based on width and height */
+    font-size: calc(8vw + 2vh);
 }
 
-#textbox2 {
-    padding: 10px;
-    width: fit-width;
-    height: fit-width;
+#btn {
     width: calc(100% - 40px);
-    text-align: center;
-    border-color: #00000000;
-    font-size: calc(8vw + 2vh); /* Auto-adjust font size based on width and height */
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: x-large;
 }

@@ -4,5 +4,4 @@ document.getElementById('btn').addEventListener('click', function() {
     var randomString1 = array1[Math.floor(Math.random() * array1.length)]; // pick a random string from array1
     var randomString2 = array2[Math.floor(Math.random() * array2.length)]; // pick a random string from array2
     document.getElementById('textbox1').value = randomString1; // display the combined string in the textbox
-    document.getElementById('textbox2').value = randomString2; // display the combined string in the textbox
 });
