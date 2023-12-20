@@ -17,8 +17,9 @@ body, html {
 #title1 {
     text-align: center;
     font-size: calc(50vw / 10);
-    margin-bottom: 20px;
+    margin-bottom: 90px;
     border-color: #000000e6;
+    
 }
 
 #textbox1 {
