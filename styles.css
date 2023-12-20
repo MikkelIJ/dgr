@@ -4,14 +4,14 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100%;
     font-family: Arial, sans-serif;
     margin: 0 auto; /* Add this line to center the container horizontally */
 }
 
 #title1 {
-    font-size: 68px;
-    font-weight: bold;
-    width: calc(100% - 40px);
+    font-size: calc(50vw / 10); /* Adjust the divisor (10) to control the font size */
+    margin: 0 20px; /* Add this line to have 20px free on each side */
     margin-bottom: 20px;
     text-align: center;
     position: fixed; /* Add this line to position the button */
@@ -34,7 +34,7 @@
     width: calc(100% - 40px);
     text-align: center;
     border-color: #00000000;
-    font-size: calc(2vw + 2vh); /* Auto-adjust font size based on width and height */
+    font-size: calc(8vw + 2vh); /* Auto-adjust font size based on width and height */
 }
 
 #textbox2 {
@@ -44,5 +44,5 @@
     width: calc(100% - 40px);
     text-align: center;
     border-color: #00000000;
-    font-size: calc(2vw + 2vh); /* Auto-adjust font size based on width and height */
+    font-size: calc(8vw + 2vh); /* Auto-adjust font size based on width and height */
 }
