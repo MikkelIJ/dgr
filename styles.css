@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: calc(100vh - 20px); /* Adjust the height to account for the padding and margin */
+    height: calc(100vh - 40px); /* Subtract the bottom margin of the button and the bottom padding of the container */
     padding: 20px;
 }
 
