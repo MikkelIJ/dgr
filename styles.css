@@ -4,26 +4,24 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: fit-content;
     font-family: Arial, sans-serif;
+    margin: 0 auto; /* Add this line to center the container horizontally */
 }
 
 #title1 {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
 }
 
-#title2 {
-    font-size: 38px;
-    font-weight: bold;
-}
 
 #btn {
     padding: 10px 20px;
     margin-bottom: 20px;
-    border-radius: 50%; /* Add this line to make the button round */
-    width: 150px; /* Set the width to 100px */
-    height: 150px; /* Set the height to 100px */
+    width: 100%;
+    height: 100px; /* Set the height to 100px */
     font-size: x-large;
 }
 
