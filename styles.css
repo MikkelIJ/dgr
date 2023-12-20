@@ -1,16 +1,22 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: calc(100vh - 40px); /* Subtract the bottom margin of the button and the bottom padding of the container */
+    height: 100%;
     padding: 20px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
 #title1 {
     text-align: center;
     font-size: calc(50vw / 10);
-    margin: 0 20px;
     margin-bottom: 20px;
     border-color: #000000e6;
 }
@@ -20,6 +26,8 @@
     text-align: center;
     border-color: #00000000;
     font-size: calc(8vw + 2vh);
+    flex: 1; /* Add this line to make the textbox take up the remaining space */
+    overflow: auto; /* Add this line to enable scrolling within the textbox if the content is too long */
 }
 
 #btn {
