@@ -11,5 +11,6 @@ COPY styles.css .
 
 # Make port 80 available to the world outside this container
 EXPOSE 80
+EXPOSE 433
 
 # The CMD command is not needed because the base image already includes a command to start nginx

@@ -1,0 +1,14 @@
+version: '1'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 433:433
+    volumes:
+      - /etc/letsencrypt:/etc/letsencrypt
+      - /var/lib/letsencrypt:/var/lib/letsencrypt
+      - /usr/share/nginx/html:/usr/share/nginx/html
+    environment:
+      - ENV_VARIABLE=value
