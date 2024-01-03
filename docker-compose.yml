@@ -3,7 +3,7 @@ services:
   app:
     build:
       context: .
-      dockerfile: mikkel
+      dockerfile: Dockerfile
     ports:
       - 433:433
       - 80:80
