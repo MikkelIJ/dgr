@@ -10,5 +10,11 @@ services:
     volumes:  
       - /etc/letsencrypt:/etc/letsencrypt:ro  
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
-    #restart: always  
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    
 
