@@ -9,6 +9,6 @@ services:
       - 80:80
     volumes:  
       - /etc/letsencrypt:/etc/letsencrypt:ro  
-      - ./nginx/:/etc/nginx/nginx.conf  
+      - ./nginx/:/etc/nginx/
     #restart: always  
 
