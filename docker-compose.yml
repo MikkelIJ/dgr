@@ -6,6 +6,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - 433:433
+      - 80:80
     volumes:
       - /etc/letsencrypt:/etc/letsencrypt
       - /var/lib/letsencrypt:/var/lib/letsencrypt
