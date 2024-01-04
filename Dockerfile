@@ -9,4 +9,4 @@ COPY index.html .
 COPY script.js .
 COPY styles.css .
 
-CMD ["nginx", "-g", "daemon off;"]
+#CMD ["nginx", "-g", "daemon off;"]
