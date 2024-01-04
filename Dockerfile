@@ -8,5 +8,6 @@ WORKDIR /usr/share/nginx/html
 COPY index.html .
 COPY script.js .
 COPY styles.css .
+COPY nginx.conf /etc/nginx/nginx.conf
 
 #CMD ["nginx", "-g", "daemon off;"]
