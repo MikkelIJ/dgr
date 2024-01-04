@@ -11,4 +11,4 @@ COPY styles.css .
 COPY nginx.conf /etc/nginx/nginx.conf
 
 # Set ownership and permissions for nginx.conf
-RUN chown nginx:nginx /etc/nginx/nginx.conf && chmod 644 /etc/nginx/nginx.conf
+#RUN chown nginx:nginx /etc/nginx/nginx.conf && chmod 644 /etc/nginx/nginx.conf
