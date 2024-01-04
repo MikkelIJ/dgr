@@ -7,7 +7,7 @@ WORKDIR /usr/share/nginx/html
 # Copy the static files into the directory
 COPY index.html .
 COPY script.js .
-COPY styles.css .
+COPY style.css .
 #COPY nginx.conf /etc/nginx/nginx.conf
 
 # Set ownership and permissions for nginx.conf
