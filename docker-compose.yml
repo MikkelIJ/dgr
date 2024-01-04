@@ -9,5 +9,5 @@ services:
       - 80:80
     volumes:  
       - /etc/letsencrypt:/etc/letsencrypt
+      - ./nginx.conf:/etc/nginx/nginx.conf
     restart: always
-    command: [nginx-debug, '-g', 'daemon off;']
