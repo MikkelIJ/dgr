@@ -2,9 +2,55 @@
 <html>
 <head>
     <title>Disc Golf Randomizer</title>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Kopier din CSS-stil her */
+        body {
+            body, html {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 100%;
+                padding: 20px;
+                box-sizing: border-box; /* Include padding and border in element's total width and height */
+                font-family: 'Roboto', sans-serif;  
+            }
+
+            #title1 {
+                text-align: center;
+                font-size: calc(60vw / 10);
+                margin-bottom: 90px;
+                border-color: #000000e6;
+                
+            }
+
+            #textbox1 {
+                padding: 10px;
+                text-align: center;
+                border-color: #00000000;
+                font-size: calc(8vw + 2vh);
+                flex: 1; /* Add this line to make the textbox take up the remaining space */
+                overflow: auto; /* Add this line to enable scrolling within the textbox if the content is too long */
+            }
+
+            #btn {
+                width: calc(100% - 40px);
+                padding: 20px;
+                margin-bottom: 20px;
+                font-size: x-large;
+            }
+
+        }
+
+        /* Tilføj andre stylingregler efter behov */
+    </style>
 </head>
 <body>
     <div class="container">
