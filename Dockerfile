@@ -1,5 +1,5 @@
 # Use an official nginx runtime as the base image
-FROM nginx:alpine
+FROM nginx:latest
 
 # Set the working directory in the container to /usr/share/nginx/html
 WORKDIR /usr/share/nginx/html
